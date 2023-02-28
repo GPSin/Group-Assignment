@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(ga1 ArgumentManager.h main.cpp)
+add_executable(ga1 ArgumentManager.h main.cpp LinkedList.h LinkedList.cpp)

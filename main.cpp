@@ -14,5 +14,12 @@ int main(int argc, char* argv[]){
 
     ifstream input("input1.txt");
 
+    string lineRead;
+    int counter;
+
+    while(getline(input, lineRead)){
+
+    }
+
     return 0;
 }
